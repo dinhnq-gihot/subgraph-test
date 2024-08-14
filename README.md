@@ -1,11 +1,11 @@
 # 🚀 Subgraph Deployment Guide for Non-Web3 Developers
 ## 📚 Introduction
-This guide will walk you through the steps required to update and deploy a subgraph for ERC-20 and ERC-721 smart contracts. You don't need prior experience with blockchain or Web3 development to follow this guide.
+This guide will walk you through the steps required to update and deploy a subgraph for smart contracts. You don't need prior experience with blockchain or Web3 development to follow this guide.
 
 ## 🛠 Prerequisites
 Before getting started, ensure you have the following installed on your machine:
 
-1. Node.js (version 18.x or 16.x recommended) 🟢
+1. Node.js (version 20.x or 18.x or 16.x recommended) 🟢
 2. npm (comes with Node.js) 📦
 3. Graph CLI (Command Line Interface tool from The Graph)
 
@@ -46,7 +46,7 @@ Before getting started, ensure you have the following installed on your machine:
     make generate-subgraph
     ```
 
-## 🛠️ Step 3: Build the Subgraph
+## 🛠️ Step 3: Codegen and Build the Subgraph
 After updating the needed fields for contracts, the next step is to build the subgraph.
 1. In your terminal, run:
     ```bash
@@ -57,7 +57,7 @@ After updating the needed fields for contracts, the next step is to build the su
 
 2. Ensure that there are no errors in the terminal output. If there are errors, double-check the contract addresses and any changes you made in subgraph.yaml. ✅
 
-## 🚀 Step 5: Deploy the Subgraph
+## 🚀 Step 4: Deploy the Subgraph
 Once the subgraph is built, you can deploy it to The Graph's Hosted Service or the decentralized Graph Network.
 ### 🌐 Deploy to The Graph Hosted Service
 1. Run the following command to deploy the subgraph:
